@@ -14,6 +14,7 @@ app.use(cors({
   }));
 
   //active routes
+  const active = require('./routes/active')
   app.use('/api/v1/active',active)
 
 //user routes

@@ -4,3 +4,6 @@ const { active} = require('../controllers/active');
 
 // Route to create a new order
 router.post('/ready', active);
+
+
+module.exports = router;
