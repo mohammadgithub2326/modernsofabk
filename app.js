@@ -13,6 +13,8 @@ app.use(cors({
     allowedHeaders:  ['Content-Type', 'Authorization','x-refresh-token']
   }));
 
+  //active routes
+  app.use('/api/v1/active',active)
 
 //user routes
 const userRoutes = require('./routes/userRoutes');
